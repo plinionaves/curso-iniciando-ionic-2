@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
+import {Lowercase} from './../../pipes/lowercase';
 
 /*
   Generated class for the TestPage page.
@@ -9,6 +10,7 @@ import {NavController} from 'ionic-angular';
 */
 @Component({
   templateUrl: 'build/pages/test/test.html',
+  pipes: [Lowercase]
 })
 export class TestPage {
   constructor(public nav: NavController) {}
