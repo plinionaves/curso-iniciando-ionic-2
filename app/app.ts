@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {Platform, ionicBootstrap} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
 import {HomePage} from './pages/home/home';
+import {TestPage} from './pages/test/test';
 
 
 @Component({
@@ -10,6 +11,7 @@ import {HomePage} from './pages/home/home';
 export class MyApp {
 
   home: any = HomePage;
+  test: any = TestPage;
 
   rootPage: any = this.home;
 
