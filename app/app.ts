@@ -3,7 +3,7 @@ import {Platform, ionicBootstrap} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
 import {HomePage} from './pages/home/home';
 import {TestPage} from './pages/test/test';
-
+import {AlertPage} from './pages/alert/alert';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -12,6 +12,7 @@ export class MyApp {
 
   home: any = HomePage;
   test: any = TestPage;
+  alert: any = AlertPage;
 
   rootPage: any = this.home;
 
