@@ -8,6 +8,7 @@ import {ButtonTestPage} from './pages/button-test/button-test';
 import {CardTestPage} from './pages/card-test/card-test';
 import {IconTestPage} from './pages/icon-test/icon-test';
 import {InputTestPage} from './pages/input-test/input-test';
+import {ListTestPage} from './pages/list-test/list-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -21,6 +22,7 @@ export class MyApp {
   card: any = CardTestPage;
   icon: any = IconTestPage;
   input: any = InputTestPage;
+  list: any = ListTestPage;
 
   rootPage: any = this.home;
 
