@@ -5,6 +5,7 @@ import {HomePage} from './pages/home/home';
 import {TestPage} from './pages/test/test';
 import {AlertPage} from './pages/alert/alert';
 import {ButtonTestPage} from './pages/button-test/button-test';
+import {CardTestPage} from './pages/card-test/card-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -15,6 +16,7 @@ export class MyApp {
   test: any = TestPage;
   alert: any = AlertPage;
   button: any = ButtonTestPage;
+  card: any = CardTestPage;
 
   rootPage: any = this.home;
 
