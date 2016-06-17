@@ -1,0 +1,56 @@
+<ion-navbar *navbar>
+  <ion-title>Grid</ion-title>
+
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+
+</ion-navbar>
+
+<ion-content class="grid-test">
+
+  <ion-row bottom>
+
+    <ion-col width-33>
+      <div>col-1</div>
+    </ion-col>
+
+    <ion-col width-67>
+      <div>
+        col-2<br />
+        3 linhas<br />
+        de texto
+      </div>
+    </ion-col>
+
+  </ion-row>
+
+  <ion-row>
+
+    <ion-col width-33>
+      <div>col-1</div>
+    </ion-col>
+
+    <ion-col width-67>
+      <div>col-2</div>
+    </ion-col>
+
+  </ion-row>
+
+  <ion-row>
+
+    <ion-col width-25 offset-25>
+      <div>col-1</div>
+    </ion-col>
+
+    <ion-col width-25>
+      <div>col-2</div>
+    </ion-col>
+
+    <ion-col width-25>
+      <div>col-3</div>
+    </ion-col>
+
+  </ion-row>
+
+</ion-content>
