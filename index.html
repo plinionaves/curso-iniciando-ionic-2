@@ -35,13 +35,49 @@
 <p>Este guia tem o intuito de informa-lo(a) sobre as últimas atualizações realizadas no framework Ionic 2 para que você possa acompanhar o curso e implementar os exemplos de acordo com as novas regras.</p>
 <p>O guia irá mostrar como era o código quando o curso foi gravado e como é agora, um antes e um depois, para que você faça as alterações necessárias e não obtenha nenhum erro na aplicação.</p>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Autor</h3>
+<h3><a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Atualizações do Ionic 2</h3>
+
+<ol>
+  <li>Componente <code><navbar></code>
+
+    <p>Antes:</p>
+    <code>
+      <ion-navbar *navbar>
+        <button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Alert Component</ion-title>
+      </ion-navbar>
+
+      <ion-content padding class="alert">
+        <p>Seu conteúdo aqui</p>
+      </ion-content>
+    </code>
+
+    <p>Depois:</p>
+    <code>
+      <ion-header>
+        <ion-navbar>
+          <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+          <ion-title>Alert Component</ion-title>
+        </ion-navbar>
+      </ion-header>
+
+      <ion-content padding class="alert">
+        <p>Seu conteúdo aqui</p>
+      </ion-content>
+    </code>
+  </li>
+</ol>
+
+
+<h3><a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Autor</h3>
 
 <p>In 2016, Plínio Naves (<a href="https://github.com/plinionaves" class="user-mention">@plinionaves</a>) GitHub.</p>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contato e Suporte</h3>
+<h3><a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contato e Suporte</h3>
 
 <p>Entre em contato pelo e-mail <code>pliniopjn@gmail.com</code>.</p>
         </section>
