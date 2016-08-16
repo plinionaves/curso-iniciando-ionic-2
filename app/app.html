@@ -5,6 +5,11 @@
   </ion-toolbar>
 
   <ion-content>
+
+    <div class="menu-image">
+      <img src="./../images/img.jpg">
+    </div>
+
     <ion-list>
       <button ion-item (click)="openPage(home)" menuClose>
         Home
@@ -44,6 +49,9 @@
       </button>
       <button ion-item (click)="openPage(toast)" menuClose>
         Toast
+      </button>
+      <button ion-item (click)="openPage(toolbar)" menuClose>
+        Toolbar
       </button>
     </ion-list>
   </ion-content>
