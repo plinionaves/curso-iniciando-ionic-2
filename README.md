@@ -8,9 +8,9 @@ Este guia tem o intuito de informá-lo(a) sobre as últimas atualizações reali
 O guia irá mostrar como era o código quando o curso foi gravado e como é agora, um antes e um depois, para que você faça as alterações necessárias e não obtenha nenhum erro na aplicação.
 
 
-## 1. Component
+## 1. Component '<navbar>'
 
-* Antes
+*Antes*
 ```html
     <ion-navbar *navbar>
       <button menutoggle>
@@ -24,7 +24,7 @@ O guia irá mostrar como era o código quando o curso foi gravado e como é agor
     </ion-content>
 ```
 
-* Depois
+*Depois*
 ```html
   <ion-header>
     <ion-navbar>
