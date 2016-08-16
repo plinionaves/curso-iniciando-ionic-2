@@ -8,7 +8,7 @@ Este guia tem o intuito de informá-lo(a) sobre as últimas atualizações reali
 O guia irá mostrar como era o código quando o curso foi gravado e como é agora, um antes e um depois, para que você faça apenas as alterações que forem necessárias e não obtenha nenhum erro na aplicação.
 
 
-## 1. Component ```html<ion-navbar>```
+## 1. Component ```html <ion-navbar> ```
 
 *Antes*
 ```html
@@ -41,7 +41,7 @@ O guia irá mostrar como era o código quando o curso foi gravado e como é agor
 ```
 
 
-## 1. Component ```html<ion-toolbar>```
+## 1. Component ```html <ion-toolbar> ```
 
 *Antes*
 ```html
@@ -54,7 +54,7 @@ O guia irá mostrar como era o código quando o curso foi gravado e como é agor
     <!-- ou -->
     <ion-toolbar position="top"></ion-toolbar>
 
-    <ion-content padding class="alert">
+    <ion-content padding class="toolbar">
       <p>Seu conteúdo aqui</p>
     </ion-content>
 
@@ -72,7 +72,7 @@ O guia irá mostrar como era o código quando o curso foi gravado e como é agor
     <ion-toolbar></ion-toolbar>
   </ion-header>
 
-  <ion-content padding class="alert">
+  <ion-content padding class="toolbar">
     <p>Seu conteúdo aqui</p>
   </ion-content>
 
