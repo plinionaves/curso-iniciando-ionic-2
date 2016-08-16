@@ -41,7 +41,7 @@ O guia irá mostrar como era o código quando o curso foi gravado e como é agor
 ```
 
 
-## 1. Component ```<ion-toolbar>```
+## 2. Component ```<ion-toolbar>```
 
 *Antes*
 ```html
