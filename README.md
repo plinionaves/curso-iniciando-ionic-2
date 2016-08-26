@@ -13,7 +13,7 @@ O guia irá mostrar como era o código quando o curso foi gravado e como é agor
 *Antes*
 ```html
     <ion-navbar *navbar>
-      <button menutoggle>
+      <button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
       <ion-title>Alert Component</ion-title>
@@ -28,7 +28,7 @@ O guia irá mostrar como era o código quando o curso foi gravado e como é agor
 ```html
   <ion-header>
     <ion-navbar>
-      <button menutoggle>
+      <button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
       <ion-title>Alert Component</ion-title>
