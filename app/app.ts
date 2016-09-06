@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ionicBootstrap, Platform, MenuController } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
+import { ConnectionService } from './providers/connection-service/connection-service';
 
 import { HomePage } from './pages/home/home';
 import { MenuTestPage } from './pages/menu-test/menu-test';
@@ -41,7 +42,7 @@ export class MyApp {
 
 }
 
-ionicBootstrap(MyApp, [], {
+ionicBootstrap(MyApp, [ConnectionService], {
   menuType: 'push',
   platforms: {
     ios: {
