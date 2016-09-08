@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Alert
+    </ion-title>
+
+    <ion-buttons right>
+      <button menuToggle="right">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <p [hidden]="!user">Olá {{ user }}</p>
+
+  <button block (click)="showAlert()">Show Alert</button>
+
+  <button danger block (click)="showInputs()">Show Inputs</button>
+
+</ion-content>
