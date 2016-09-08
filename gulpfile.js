@@ -64,6 +64,31 @@ gulp.task('build', ['clean'], function(done){
   );
 });
 
+// proxy
+var replace = require('replace');
+var replaceFiles = ['./www/build/js/app.bundle.js'];
+
+gulp.task('add-proxy', function() {
+  return replace({
+    regex: "https://github.com",
+    replacement: "http://10.0.0.104:8100/github",
+    paths: replaceFiles,
+    recursive: false,
+    silent: false,
+  });
+});
+
+gulp.task('remove-proxy', function() {
+  return replace({
+    regex: "http://10.0.0.104:8100/github",
+    replacement: "https://github.com",
+    paths: replaceFiles,
+    recursive: false,
+    silent: false,
+  });
+});
+
+
 gulp.task('sass', buildSass);
 gulp.task('html', copyHTML);
 gulp.task('fonts', copyFonts);

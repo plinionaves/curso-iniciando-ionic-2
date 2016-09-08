@@ -22,4 +22,13 @@ export class GeneratedTestPage {
       });
   }
 
+  testCORS() : void {
+    this.connectionService.testCORS()
+      .then((res) => {
+        console.log(res);
+      }).catch((err) => {
+        console.log(err);
+      });
+  }
+
 }

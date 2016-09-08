@@ -3,5 +3,11 @@
   "app_id": "",
   "v2": true,
   "typescript": true,
-  "defaultBrowser": "chrome"
+  "defaultBrowser": "chrome",
+  "proxies": [
+    {
+      "path:": "/github",
+      "proxyUrl": "https://github.com"
+    }
+  ]
 }

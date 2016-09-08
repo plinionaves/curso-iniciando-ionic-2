@@ -12,4 +12,8 @@ export class ConnectionService {
     return this.http.get('https://viacep.com.br/ws/' + cep.trim() + '/json/').toPromise();
   }
 
+  testCORS() : Promise<Response> {
+    return this.http.get('https://github.com').toPromise();
+  }
+
 }
