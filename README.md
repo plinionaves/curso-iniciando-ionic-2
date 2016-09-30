@@ -119,7 +119,7 @@ export class AlertPage {
       buttons: ['OK']
     });
 
-    alert.present(alert);
+    alert.present();
   }
 
 }
