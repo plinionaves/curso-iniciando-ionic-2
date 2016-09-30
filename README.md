@@ -81,3 +81,80 @@ O guia irá mostrar como era o código quando o curso foi gravado e como é agor
     <ion-toolbar></ion-toolbar>
   </ion-footer>
 ```
+
+## 2. Component ```Alert``` para ```AlertController```
+*Antes*
+```javascript
+import {NavController, Alert} from 'ionic-angular';
+
+export class AlertPage {
+
+  constructor(public nav: NavController) {}
+
+  showAlert() {
+    let alert = Alert.create({
+      title: 'Ionic 2',
+      message: 'Meu primeir alert',
+      buttons: ['OK']
+    });
+
+    this.nav.present(alert);
+  }
+
+}
+```
+
+*Depois*
+```javascript
+import {AlertController} from 'ionic-angular';
+
+export class AlertPage {
+
+  constructor(public alertCtrl: AlertController) {}
+
+  showAlert() {
+    let alert = this.alertCtrl.create({
+      title: 'Ionic 2',
+      message: 'Meu primeir alert',
+      buttons: ['OK']
+    });
+
+    alert.present(alert);
+  }
+
+}
+```
+
+## 2. Component ```Modal``` para ```ModalController```
+*Antes*
+```javascript
+import {NavController, Modal} from 'ionic-angular';
+import {ModalLoginPage} from './../modal-login/modal-login';
+
+export class ModalTestPage {
+  constructor(public nav: NavController) {}
+
+  openModal() {
+    let modal = Modal.create(ModalLoginPage);
+
+    this.nav.present(modal);
+  }
+
+}
+```
+
+*Depois*
+```javascript
+import {ModalController} from 'ionic-angular';
+import {ModalLoginPage} from './../modal-login/modal-login';
+
+export class MyPage {
+  constructor(public modalCtrl: ModalController) {
+  }
+
+  presentModal() {
+    let modal = this.modalCtrl.create(ModalLoginPage);
+    modal.present();
+  }
+}
+```
