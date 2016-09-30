@@ -82,7 +82,7 @@ O guia irá mostrar como era o código quando o curso foi gravado e como é ness
   </ion-footer>
 ```
 
-## 2. Component ```Alert``` para ```AlertController```
+## 3. Component ```Alert``` para ```AlertController```
 *Antes*
 ```javascript
 import {NavController, Alert} from 'ionic-angular';
@@ -125,7 +125,7 @@ export class AlertPage {
 }
 ```
 
-## 2. Component ```Modal``` para ```ModalController```
+## 4. Component ```Modal``` para ```ModalController```
 *Antes*
 ```javascript
 import {NavController, Modal} from 'ionic-angular';
