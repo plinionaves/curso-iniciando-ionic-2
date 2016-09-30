@@ -3,9 +3,9 @@ Repositório do Curso de Ionic 2
 
 # Guia de atualizações do Ionic 2
 
-Este guia tem o intuito de informá-lo(a) sobre as últimas atualizações realizadas no framework Ionic 2 para que você possa acompanhar o curso e implementar os exemplos de acordo com as novas regras.
+Este guia tem o intuito de informá-lo(a) sobre as atualizações realizadas no framework Ionic 2 na última versão beta (2.0.0-beta.11) para que você possa acompanhar o curso e implementar os exemplos de acordo com as novas regras.
 
-O guia irá mostrar como era o código quando o curso foi gravado e como é agora, um antes e um depois, para que você faça apenas as alterações que forem necessárias e não obtenha nenhum erro na aplicação.
+O guia irá mostrar como era o código quando o curso foi gravado e como é nessa versão, um antes e um depois, para que você faça apenas as alterações que forem necessárias e não obtenha nenhum erro na aplicação.
 
 
 ## 1. Component ```<ion-navbar>```
