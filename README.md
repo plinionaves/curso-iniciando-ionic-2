@@ -152,7 +152,7 @@ export class ModalTestPage {
   constructor(public modalCtrl: ModalController) {
   }
 
-  presentModal() {
+  openModal() {
     let modal = this.modalCtrl.create(ModalLoginPage);
     modal.present();
   }
