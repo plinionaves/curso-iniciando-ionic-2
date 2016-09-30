@@ -94,7 +94,7 @@ export class AlertPage {
   showAlert() {
     let alert = Alert.create({
       title: 'Ionic 2',
-      message: 'Meu primeir alert',
+      message: 'Meu primeiro alert',
       buttons: ['OK']
     });
 
@@ -115,7 +115,7 @@ export class AlertPage {
   showAlert() {
     let alert = this.alertCtrl.create({
       title: 'Ionic 2',
-      message: 'Meu primeir alert',
+      message: 'Meu primeiro alert',
       buttons: ['OK']
     });
 
@@ -148,7 +148,7 @@ export class ModalTestPage {
 import {ModalController} from 'ionic-angular';
 import {ModalLoginPage} from './../modal-login/modal-login';
 
-export class MyPage {
+export class ModalTestPage {
   constructor(public modalCtrl: ModalController) {
   }
 
